@@ -7,3 +7,8 @@
     background-color: yellow;
     color: black;
 }
+
+.first-button, .second-button {
+    font-size: 28px;
+    font-family: 'Times New Roman', sans-serif;
+}
