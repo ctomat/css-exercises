@@ -3,11 +3,16 @@
     font-family: Verdana, "DejaVu Sans", sans-serif
 }
 
-.unique {
+#third {
     color: rgb(58, 108, 224);
     font-size: 36px;
 }
 
 .bigger {
     font-size: 24px;
+}
+
+#fourth {
+    background-color: rgb(40, 179, 40);
+    font-weight: bold;
 }
