@@ -2,6 +2,7 @@
 
 html, body {
   height: 100%;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,6 +21,21 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 15px;
+  padding: 13px;
+}
+
+
+.info-container div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 .icon {
@@ -33,6 +49,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -48,9 +65,14 @@ body {
   justify-content: center;
 }
 
+.text {
+  margin-top: 5px;
+}
+
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 15px;
 }
 
 button.continue {
